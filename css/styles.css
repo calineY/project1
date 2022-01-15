@@ -91,6 +91,7 @@
 	background-color: rgba(103, 75, 255, 255);
 	height: 700px;
 	text-align: center;
+	padding-top: 5%;
 }
 
 .bolder {
@@ -105,4 +106,20 @@
 
 em {
 	color: white;
+}
+
+.addmargin {
+	margin-top: 2%;
+	margin-bottom: 12%;
+}
+
+#mtv {
+	width: 200px;
+	height: 75px;
+	margin-right: 25px;
+}
+
+#lbc {
+	width: 200px;
+	height: 200px;
 }
