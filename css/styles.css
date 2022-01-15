@@ -15,7 +15,7 @@
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bolder;
-	font-size: 60px;
+	font-size: 55px;
 }
 
 .bold {
@@ -42,7 +42,28 @@
 	transform: rotate(25deg);
 }
 
-/*@media (max-width: 767px) {*/
+@media (max-width: 767px) {
+	#clip {
+		width: 260px;
+		height: 500px;
+		margin-right: 50px;
+		padding-bottom: 10%;
+		transform: rotate(0deg);
+	}
+	.titlediv {
+		height: 500px;
+		overflow: visible;
+	}
+	#mytitle {
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bolder;
+		font-size: 35px;
+	}
+	#titlediv1 {
+		padding-left: 3%;
+	}
+}
 #download-google-play {
 	margin-left: 10px;
 	background-color: rgba(103, 75, 255, 255);
