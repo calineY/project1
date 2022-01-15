@@ -43,7 +43,13 @@
 	transform: rotate(25deg);
 }
 
+#features {
+	text-align: center;
+	height: 300px;
+}
+
 @media (max-width: 767px) {
+	/*layout on small screens*/
 	#clip {
 		width: 260px;
 		height: 500px;
@@ -64,16 +70,15 @@
 	#titlediv1 {
 		padding-left: 3%;
 	}
+	#features {
+		text-align: center;
+		height: 500px;
+	}
 }
 #download-google-play {
 	margin-left: 10px;
 	background-color: rgba(103, 75, 255, 255);
 	border-color: white;
-}
-
-#features {
-	text-align: center;
-	height: 300px;
 }
 
 .features-icon {
@@ -109,8 +114,8 @@ em {
 }
 
 .addmargin {
-	margin-top: 2%;
-	margin-bottom: 12%;
+	margin-top: 30px;
+	margin-bottom: 100px;
 }
 
 #mtv {
@@ -122,4 +127,30 @@ em {
 #lbc {
 	width: 200px;
 	height: 200px;
+}
+
+.margintop {
+	margin-top: 70px;
+}
+
+#white {
+	background-color: white;
+	border-color: black;
+}
+
+.pricingcard {
+	width: 300px;
+	text-align: center;
+}
+
+.pricingcardtitle {
+	background-color: rgba(247, 247, 247, 255);
+	height: 50px;
+	border-bottom: 1px solid rgba(225, 225, 225, 255);
+}
+
+.pricingtitleh3 {
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 5px;
 }
