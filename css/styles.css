@@ -43,3 +43,8 @@
 }
 
 /*@media (max-width: 767px) {*/
+#download-google-play {
+	margin-left: 10px;
+	background-color: rgba(103, 75, 255, 255);
+	border-color: white;
+}
