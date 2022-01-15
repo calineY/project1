@@ -73,10 +73,24 @@
 
 #features {
 	text-align: center;
-	height: 400px;
+	height: 300px;
 }
 
 .features-icon {
-	font-size: 60px;
+	font-size: 70px;
 	color: rgba(103, 75, 255, 255);
+}
+#featuresrow {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#testimonials {
+	background-color: rgba(103, 75, 255, 255);
+}
+
+.bolder {
+	font-weight: 800;
 }
