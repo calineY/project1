@@ -32,12 +32,11 @@
 .titlediv {
 	padding-top: 50px;
 	height: 400px;
-	width: 400px;
 	overflow: hidden;
 }
 
 #clip {
-	margin-left: 250px;
+	margin-left: 230px;
 	width: 260px;
 	height: 500px;
 	transform: rotate(25deg);
