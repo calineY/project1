@@ -29,3 +29,19 @@
 #titlediv1 {
 	padding-left: 1%;
 }
+
+.titlediv {
+	padding-top: 50px;
+	height: 400px;
+	width: 100px;
+	overflow: hidden;
+}
+
+#clip {
+	margin-left: 120px;
+	width: 250px;
+	height: 500px;
+	transform: rotate(25deg);
+}
+
+/*@media (max-width: 767px) {*/
