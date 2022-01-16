@@ -170,3 +170,18 @@ em {
 	height: 350px;
 	padding-top: 10px;
 }
+
+#footer {
+	height: 300px;
+}
+
+#footerdiv {
+	text-align: center;
+}
+
+.footericons {
+	font-size: 30px;
+	margin: 20px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+}
