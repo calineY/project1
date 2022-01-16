@@ -15,7 +15,7 @@
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bolder;
-	font-size: 55px;
+	font-size: 60px;
 	margin-top: 10%;
 }
 
@@ -60,6 +60,7 @@
 	.titlediv {
 		height: 500px;
 		overflow: visible;
+		text-align: center;
 	}
 	#mytitle {
 		color: white;
@@ -74,11 +75,25 @@
 		text-align: center;
 		height: 500px;
 	}
+	.myfont {
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: bolder;
+		font-size: 40px;
+		margin-top: 10%;
+	}
+	#titlediv1 {
+		text-align: center;
+	}
 }
 #download-google-play {
 	margin-left: 10px;
 	background-color: rgba(103, 75, 255, 255);
 	border-color: white;
+}
+
+#download-google-play:hover {
+	background-color: mediumslateblue;
 }
 
 .features-icon {
@@ -133,9 +148,13 @@ em {
 	margin-top: 70px;
 }
 
-#white {
+#whitebtn {
 	background-color: white;
 	border-color: black;
+}
+
+#whitebtn:hover {
+	background-color: rgb(218, 208, 208);
 }
 
 #packages {
@@ -167,8 +186,12 @@ em {
 #cta {
 	background-color: rgba(103, 75, 255, 255);
 	text-align: center;
-	height: 350px;
+	height: 400px;
 	padding-top: 10px;
+}
+
+.padtop {
+	padding-top: 30px;
 }
 
 #footer {
@@ -184,4 +207,9 @@ em {
 	margin: 20px;
 	margin-top: 70px;
 	margin-bottom: 40px;
+	color: rgb(41, 38, 38);
+}
+
+.footericons:hover {
+	color: rgb(71, 71, 87);
 }
