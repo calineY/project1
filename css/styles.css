@@ -11,7 +11,7 @@
 	font-size: 50px;
 }
 
-#mytitle {
+.myfont {
 	color: white;
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bolder;
@@ -162,4 +162,11 @@ em {
 	font-weight: bold;
 	font-family: Arial, Helvetica, sans-serif;
 	padding-top: 5px;
+}
+
+#cta {
+	background-color: rgba(103, 75, 255, 255);
+	text-align: center;
+	height: 350px;
+	padding-top: 10px;
 }
