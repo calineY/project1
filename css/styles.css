@@ -59,10 +59,10 @@
 	height: 200px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 900px) {
 	/*layout on small screens*/
 	#clip {
-		width: 260px;
+		margin-left: 0px !important;
 		height: 500px;
 		padding-bottom: 10%;
 		transform: rotate(0deg);
