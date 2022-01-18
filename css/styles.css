@@ -2,11 +2,6 @@
 	background-color: rgba(103, 75, 255, 255);
 }
 
-#title {
-	padding-left: 15%;
-	padding-top: 50px;
-	padding-right: 15%;
-}
 
 .arial-font{
 	font-family: Arial, Helvetica, sans-serif;
@@ -14,14 +9,17 @@
 
 #myapp {
 	color: white;
-	font-size: 50px;
+	font-size: 3.125em;
 }
 
 .myfont {
 	color: white;
 	font-weight: bolder;
-	font-size: 60px;
-	margin-top: 10%;
+	font-size: 4em;
+}
+
+#test{
+	margin-bottom: 25px;
 }
 
 .download-google-play {
@@ -36,12 +34,8 @@
 
 .bold {
 	font-weight: bold;
-	font-size: 25px;
+	font-size: 1.5625em;
 	margin-left: 50px;
-}
-
-#titlediv1 {
-	padding-left: 1%;
 }
 
 .image-div {
@@ -51,7 +45,6 @@
 }
 
 #dog-image {
-	margin-left: 50px;
 	width: 260px;
 	height: 500px;
 	transform: rotate(25deg);
@@ -93,6 +86,10 @@
 	text-align: center;
 }
 
+#pricing{
+	text-align: center !important;
+}
+
 .pricing-title {
 	font-weight: bold;
 	padding-top: 50px;
@@ -119,7 +116,7 @@
 }
 
 .footericons {
-	font-size: 30px;
+	font-size: 1.875em;
 	margin: 20px;
 	margin-top: 70px;
 	margin-bottom: 40px;
@@ -131,7 +128,7 @@
 }
 
 .features-icon {
-	font-size: 70px;
+	font-size: 4.375em;
 	color: rgba(103, 75, 255, 255);
 }
 
@@ -179,12 +176,18 @@ em {
 	height: 200px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 950px) {
 	/*layout on small screens*/
 	#dog-image {
 		margin-left: 0px !important;
 		padding-bottom: 10%;
 		transform: rotate(0deg);
+	}
+
+	.myfont{
+		font-size: 3em;
+		margin-left: 5px;
+		margin-right: 5px;
 	}
 
 	.image-div {
