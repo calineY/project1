@@ -11,22 +11,22 @@
   <link rel="stylesheet" href="css/bootstrap.css">
 </head>
 
-<body class="container-fluid">
+<body>
 
-  <section id="title">
+  <section id="title" class="purple-bg container-fluid">
+
     <!-- Nav Bar -->
-
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid">
-        <a href="#" class="navbar-brand" id="myapp">MyApp</a>
+        <a href="#" class="navbar-brand arial-font" id="myapp">MyApp</a>
         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <div class="navbar-nav ms-auto text-center">
-            <a href="#footer" class="nav-item nav-link bold">Contact</a>
-            <a href="#packages" class="nav-item nav-link bold">Pricing</a>
-            <a href="#cta" class="nav-item nav-link bold">Download</a>
+            <a href="#footer" class="nav-item nav-link bold arial-font">Contact</a>
+            <a href="#packages" class="nav-item nav-link bold arial-font">Pricing</a>
+            <a href="#cta" class="nav-item nav-link bold arial-font">Download</a>
           </div>
         </div>
       </div>
@@ -34,15 +34,15 @@
 
 
     <!-- Title -->
-    <div class="row" id="titlediv1">
+    <div class="row" id="titlediv1" class="container-fluid">
       <div class="col-md-6">
-        <h1 class="myfont">Meet dog next door.</h1>
+        <h1 class="myfont arial-font">Meet dog next door.</h1>
         <a href="#"></a><button type="button" class="btn btn-dark"><i class="fab fa-apple"></i> Download</button></a>
-        <a href="#"><button type="button" class="btn btn-primary" id="download-google-play"><i
+        <a href="#"><button type="button" class="btn btn-primary download-google-play"><i
               class="fab fa-google-play"></i> Download</button></a>
       </div>
-      <div class="col-md-6 titlediv container">
-        <img src="assets/app.png" alt="Dog dating app image" id="clip">
+      <div class="col-md-6 image-div container">
+        <img src="assets/app.png" alt="Dog dating app image" id="dog-image">
       </div>
     </div>
 
@@ -50,7 +50,6 @@
 
 
   <!-- Features -->
-
   <section id="features" class="container-fluid">
 
     <div class="row" id="featuresrow">
@@ -77,23 +76,24 @@
   </section>
 
   <!-- Testimonials -->
-  <section id="testimonials" class="container-fluid">
+  <section id="testimonials" class="container-fluid purple-bg">
+
     <div class="row">
       <!--Row for carousel and row for press-->
       <div id="myCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
         <!-- Wrapper for carousel items -->
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <h2 class="bolder margintop">Quote 1. Woof.</h2>
+            <h2 class="bolder margin-top">Quote 1. Woof.</h2>
             <div class="addmargin">
-              <img src="assets/dog-img.jpg" alt="Dog profile picture" class="dogimg">
+              <img class="dogimg" src="assets/dog-img.jpg" alt="Dog profile picture">
               <em>&nbsp Beirut, Lebanon</em>
             </div>
           </div>
           <div class="carousel-item">
-            <h2 class="bolder margintop">Quote 2. Woof.</h2>
+            <h2 class="bolder margin-top">Quote 2. Woof.</h2>
             <div class="addmargin">
-              <img src="assets/dog-img.jpg" alt="Dog profile picture" class="dogimg">
+              <img class="dogimg" src="assets/dog-img.jpg" alt="Dog profile picture">
               <em>&nbsp Beirut, Lebanon</em>
             </div>
           </div>
@@ -108,9 +108,9 @@
         </a>
       </div>
     </div>
+
     <div class="row">
       <!-- Press -->
-
       <section id="press">
         <img src="assets/mtv-logo.png" id="mtv">
         <img src="assets/lbci-logo.png" id="lbc">
@@ -122,20 +122,20 @@
 
 
   <!-- Pricing -->
-
   <section class="container-fluid">
+
     <div id="packages">
-      <h2 class="pricingtitleh2">Packages</h2>
+      <h2 class="pricing-title arial-font">Packages</h2>
       <p>Something interesting here...</p>
     </div>
     <!--row with 3 cols for 3 packages-->
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-6 col-xs-12">
           <div class="m-4">
-            <div class="card pricingcard">
-              <div class="pricingcardtitle">
-                <h3 class="pricingtitleh3">Package 1</h3>
+            <div class="card pricing-card">
+              <div class="pricing-card-title">
+                <h3 class="pricing-subtitle arial-font">Package 1</h3>
               </div>
               <div class="card-body text-center">
                 <h2 class="card-title">Free</h2>
@@ -151,9 +151,9 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="m-4">
-            <div class="card pricingcard">
-              <div class="pricingcardtitle">
-                <h3 class="pricingtitleh3">Package 2</h3>
+            <div class="card pricing-card">
+              <div class="pricing-card-title">
+                <h3 class="pricing-subtitle arial-font">Package 2</h3>
               </div>
               <div class="card-body text-center">
                 <h2 class="card-title">$29 / mo</h2>
@@ -169,9 +169,9 @@
         </div>
         <div class="col-lg-4 col-md-6">
           <div class="m-4">
-            <div class="card pricingcard">
-              <div class="pricingcardtitle">
-                <h3 class="pricingtitleh3">Package 3</h3>
+            <div class="card pricing-card">
+              <div class="pricing-card-title">
+                <h3 class="pricing-subtitle arial-font">Package 3</h3>
               </div>
               <div class="card-body text-center">
                 <h2 class="card-title">$49 / mo</h2>
@@ -189,29 +189,26 @@
       </div>
     </div>
 
-
   </section>
 
 
   <!-- Call to Action -->
-
-  <section id="cta" class="container-fluid">
+  <section id="cta" class="container-fluid purple-bg">
 
     <div class="container">
-      <h3 class="myfont">The APP that your dog needs.</h3>
-      <div class="container padtop">
+      <h3 class="myfont arial-font">The APP that your dog needs.</h3>
+      <div class="container pad-top">
         <button type="button" class="btn btn-dark"><i class="fab fa-apple"></i> Download</button>
-        <button type="button" class="btn btn-primary" id="download-google-play"><i class="fab fa-google-play"></i>
-          Download</button>
+        <button type="button" class="btn btn-primary download-google-play"><i
+            class="fab fa-google-play"></i>Download</button>
       </div>
     </div>
   </section>
 
 
   <!-- Footer -->
-
   <footer id="footer" class="container-fluid">
-    <div class="center">
+    <div class="text-center">
       <i class="fab fa-twitter footericons"></i>
       <i class="fab fa-facebook-f footericons"></i>
       <i class="fab fa-instagram footericons"></i>
@@ -220,10 +217,12 @@
     </div>
   </footer>
 
+  <!--Left one js link commented so that the navbar toggler reclose after opening-->
   <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>-->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+
 </body>
 
 </html>

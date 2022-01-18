@@ -1,42 +1,56 @@
-#title {
+.purple-bg{
 	background-color: rgba(103, 75, 255, 255);
+}
+
+#title {
 	padding-left: 15%;
 	padding-top: 50px;
 	padding-right: 15%;
 }
 
+.arial-font{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
 #myapp {
 	color: white;
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 50px;
 }
 
 .myfont {
 	color: white;
-	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bolder;
 	font-size: 60px;
 	margin-top: 10%;
+}
+
+.download-google-play {
+	margin-left: 10px;
+	background-color: rgba(103, 75, 255, 255) !important;
+	border-color: white !important;
+}
+
+.download-google-play:hover {
+	background-color: mediumslateblue !important;
 }
 
 .bold {
 	font-weight: bold;
 	font-size: 25px;
 	margin-left: 50px;
-	font-family: Arial, Helvetica, sans-serif;
 }
 
 #titlediv1 {
 	padding-left: 1%;
 }
 
-.titlediv {
+.image-div {
 	padding-top: 50px;
 	height: 400px;
 	overflow: hidden;
 }
 
-#clip {
+#dog-image {
 	margin-left: 50px;
 	width: 260px;
 	height: 500px;
@@ -46,6 +60,112 @@
 #features {
 	text-align: center;
 	height: 300px;
+}
+
+#featuresrow {
+	margin-top: 10%;
+	margin-bottom: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.bolder {
+	font-weight: 800;
+}
+
+#testimonials {
+	height: 700px;
+	text-align: center;
+	padding-top: 5%;
+}
+
+.margin-top {
+	margin-top: 70px;
+}
+
+.dogimg {
+	border-radius: 50%;
+	width: 90px;
+	height: 60px;
+}
+
+#packages {
+	text-align: center;
+}
+
+.pricing-title {
+	font-weight: bold;
+	padding-top: 50px;
+	text-align: center;
+}
+
+.pricing-subtitle {
+	font-weight: bold;
+	margin-top: 7px;
+}
+
+#cta {
+	text-align: center;
+	height: 400px;
+	padding-top: 10px;
+}
+
+.pad-top {
+	padding-top: 30px;
+}
+
+#footer {
+	height: 300px;
+}
+
+.footericons {
+	font-size: 30px;
+	margin: 20px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	color: rgb(41, 38, 38);
+}
+
+.footericons:hover {
+	color: rgb(71, 71, 87);
+}
+
+.features-icon {
+	font-size: 70px;
+	color: rgba(103, 75, 255, 255);
+}
+
+em {
+	color: white;
+}
+
+.addmargin {
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+
+#whitebtn {
+	background-color: white;
+	border-color: black;
+}
+
+#whitebtn:hover {
+	background-color: rgb(39, 37, 37);
+	border-color:  rgb(39, 37, 37);
+	color: white;
+}
+
+.pricing-card {
+	width: 300px;
+	text-align: center;
+	margin: 10%;
+}
+
+.pricing-card-title {
+	background-color: rgba(247, 247, 247, 255);
+	height: 50px;
+	border-bottom: 1px solid rgba(225, 225, 225, 255);
 }
 
 #mtv {
@@ -61,169 +181,41 @@
 
 @media (max-width: 900px) {
 	/*layout on small screens*/
-	#clip {
+	#dog-image {
 		margin-left: 0px !important;
-		height: 500px;
 		padding-bottom: 10%;
 		transform: rotate(0deg);
-		text-align: center;
 	}
-	.titlediv {
+
+	.image-div {
 		height: 500px;
 		overflow: visible;
 		text-align: center;
 		margin-left: 20%;
 		margin-right: 20%;
 	}
-	#mytitle {
-		color: white;
-		font-family: Arial, Helvetica, sans-serif;
-		font-weight: bolder;
-		font-size: 35px;
-	}
+
 	#titlediv1 {
 		padding-left: 3%;
 		text-align: center;
 	}
+
 	#features {
 		text-align: center;
 		height: 500px;
 	}
-	.myfont {
-		color: white;
-		font-family: Arial, Helvetica, sans-serif;
-		font-weight: bolder;
-		font-size: 40px;
-		margin-top: 10%;
-	}
 
 	#mtv {
-		width: 30%;
-		height: 30%;
+		width: 150px;
+		height: 50px;
 		margin-right: 15px;
 		margin-top: 50px;
 	}
 
 	#lbc {
-		width: 30%;
-		height: 90%;
+		width: 150px;
+		height: 150px;
 		margin-top: 50px;
 	}
 }
-#download-google-play {
-	margin-left: 10px;
-	background-color: rgba(103, 75, 255, 255);
-	border-color: white;
-}
 
-#download-google-play:hover {
-	background-color: mediumslateblue;
-}
-
-.features-icon {
-	font-size: 70px;
-	color: rgba(103, 75, 255, 255);
-}
-#featuresrow {
-	margin-top: 10%;
-	margin-bottom: 10%;
-	margin-left: 20%;
-	margin-right: 20%;
-}
-
-#testimonials {
-	background-color: rgba(103, 75, 255, 255);
-	height: 700px;
-	text-align: center;
-	padding-top: 5%;
-}
-
-.bolder {
-	font-weight: 800;
-}
-
-.dogimg {
-	border-radius: 50%;
-	width: 90px;
-	height: 60px;
-}
-
-em {
-	color: white;
-}
-
-.addmargin {
-	margin-top: 30px;
-	margin-bottom: 100px;
-}
-
-.margintop {
-	margin-top: 70px;
-}
-
-#whitebtn {
-	background-color: white;
-	border-color: black;
-}
-
-#whitebtn:hover {
-	background-color: rgb(218, 208, 208);
-}
-
-#packages {
-	text-align: center;
-}
-
-.pricingcard {
-	width: 300px;
-	text-align: center;
-	margin: 10%;
-}
-
-.pricingcardtitle {
-	background-color: rgba(247, 247, 247, 255);
-	height: 50px;
-	border-bottom: 1px solid rgba(225, 225, 225, 255);
-}
-.pricingtitleh2 {
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
-	padding-top: 50px;
-	text-align: center;
-}
-.pricingtitleh3 {
-	font-weight: bold;
-	font-family: Arial, Helvetica, sans-serif;
-	padding-top: 5px;
-}
-
-#cta {
-	background-color: rgba(103, 75, 255, 255);
-	text-align: center;
-	height: 400px;
-	padding-top: 10px;
-}
-
-.padtop {
-	padding-top: 30px;
-}
-
-#footer {
-	height: 300px;
-}
-
-.center {
-	text-align: center;
-}
-
-.footericons {
-	font-size: 30px;
-	margin: 20px;
-	margin-top: 70px;
-	margin-bottom: 40px;
-	color: rgb(41, 38, 38);
-}
-
-.footericons:hover {
-	color: rgb(71, 71, 87);
-}
